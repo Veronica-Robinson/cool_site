@@ -1,0 +1,140 @@
+:root {
+    --cool-dark: #061130;
+    --cool-blue: #1c4bc4;
+    --cool-light: #f4f6f8;
+    --cool-yellow: #fafd61;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    color: #f4f6f8;
+    background-color: var(--cool-dark);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 30;
+    margin: 0%;
+    justify-content: space-between;
+    min-height: 100vh;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+nav a:visited {
+    color: white;
+    ;
+}
+
+footer a:visited {
+    color: black;
+}
+
+.tm-whole {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2vh 4vw;
+    margin: 5px;
+
+}
+
+.tm-whole * {
+    margin: 0px 10px
+}
+
+.cs2-logo {
+    margin-right: 5vw
+}
+
+nav {
+    margin-right: 5vw;
+    margin: 0px;
+    height: 100%;
+
+
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 5vw;
+    margin-bottom: 5vw;
+
+
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.footer-top {
+    display: flex;
+    background-color: var(--cool-light);
+    font-style: var(--cool-blue);
+    padding: 5%;
+    justify-content: space-evenly
+}
+
+.footer-bottom {
+    display: flex;
+    background-color: rgb(204, 204, 204);
+    color: black;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 5vw;
+
+}
+
+.w-50 {
+    width: 50;
+}
+
+
+
+.services-main-info {
+    display: flex;
+    color: var(--cool-light);
+    max-width: 40%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: column;
+    margin-left: 8vw;
+
+}
+
+.world-image {
+    max-width: 50%;
+}
+
+.world-image img {
+    width: 100%;
+}
+
+
+
+.yellow-services {
+    color: var(--cool-yellow)
+}
+
+
+
+.lets-chat-btn {
+    background-color: var(--cool-blue);
+    border-radius: 8%;
+    border: 0;
+    font-weight: 400;
+    font-size: 18px;
+    color: #f4f6f8;
+    box-shadow: 0px 2px 4px black;
+    padding: 10px;
+    cursor: pointer;
+
+
+}
